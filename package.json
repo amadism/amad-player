@@ -1,0 +1,29 @@
+{
+  "name": "amad-player",
+  "version": "1.0.2",
+  "description": "A Vue.js package for customise audio and video player",
+  "main": "dist/js/app.55a0a968.js",
+  "scripts": {
+    "build": "vue-cli-service build",
+    "serve": "vue-cli-service serve"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+  "vue",
+  "audio player",
+  "video player",
+  "media player",
+  "custom player"
+]
+}
