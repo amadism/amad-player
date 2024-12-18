@@ -68,6 +68,7 @@ import { AmadVideo } from 'amad-player';
 | file           | string  | null    | audio src (required)   |
 | autoPlay       | boolean | false   | for autoplay audio     |
 | skip           | boolean | true    | for skip buttons       |
+| preload        | string  | metadata| preload                |
 | loop           | boolean | false   | play audio in loop     |
 | title          | string  | null    | the title of the audio |
 | bgColor        | string  | #333    | background color       |
@@ -75,14 +76,20 @@ import { AmadVideo } from 'amad-player';
 | barColor       | string  | #d1d5db | bar color              |
 | barSeekerColor | string  | null    | bar seeker color       |
 | iconStyle      | string  | #333    | icons color            |
+| spinnerColor   | string  | #fff    | loading spinner        |
+| showLoading    | boolean | true    | display loading on load|
 
 
-# Props for Videi Player (AmadVideo)
+# Props for Video Player (AmadVideo)
 
 | Prop           | Type    | Default | Description            |
 |----------------|---------|---------|------------------------|
 | file           | string  | null    | audio src (required)   |
+| poster         | string  | null    | poster or thumbnail    |
+| preload        | string  | metadata| preload                |
 | autoPlay       | boolean | false   | for autoplay audio     |
 | loop           | boolean | false   | play audio in loop     |
 | title          | string  | null    | the title of the audio |
 | skip           | boolean | true    | for skip buttons       |
+| iconStyle      | string  | #333    | icons color            |
+
